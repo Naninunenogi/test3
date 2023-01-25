@@ -1,0 +1,131 @@
+p{color:white}
+body{
+    background: #2e9cc5;
+}
+
+
+.child1 {
+    float: left;
+    width: 60%;
+    display: block;
+}
+
+.child2 {float: right;
+    width: 40%;
+    display: block;
+}
+
+.gchild1 {
+    float: left;
+    width: 1%;
+    display: block;
+    padding-right: 0px;
+    margin-right: 0px;
+
+}
+
+.secret {
+    display: block;
+}
+
+.gchild2 {
+    float: right;
+    width: 99%;
+    display: block;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+
+
+.header-1{
+
+    float: left;
+    width: 40%;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 40px;
+
+    }
+
+.header-2{
+    
+    width: 40%;
+    margin-top: 0px;
+    
+}
+
+.profile{
+    float: right;
+    width: 60%;
+    display: block;
+}
+    
+nav{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: #04006c;
+    margin-right: 0%;
+}
+
+.type2 {
+    float: right;
+    width: 80%;
+    background: rgb(70, 121, 231);
+    margin-left: 0%;
+    
+    
+}
+
+
+.type0-a{
+    list-style: none;
+    margin-top: 15px;
+    }
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(203, 198, 198);
+    margin-right: 35px;
+
+}
+
+
+.wrapper {
+    counter-reset: people;
+}
+
+.order::before {
+    content: counter(people);
+    counter-increment: people;
+}
+
+.type1{
+    padding-left: 10px;
+}
+
+
+
+.type1-a {
+    color: rgb(203, 198, 198);
+    list-style: circle;
+    padding-left: 26px;
+   
+    
+}
+
+.type1-b {
+    color: rgb(203, 198, 198);
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.omake {
+    margin-top: 30px;
+    color: #2e9cc5;
+}
+
+
